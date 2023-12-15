@@ -23,5 +23,5 @@ jobs:
 
     - name: Build and deploy
       run: |
-        npm run build
+        npm start
         npx http-server -p ${{ env.PORT || 8080 }} ./dist
