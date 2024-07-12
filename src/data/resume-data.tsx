@@ -48,6 +48,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "TKH (Thikon kiryat hayim)",
+      degree: "No degree yet",
       start: "2024",
       end: "2026",
     },
