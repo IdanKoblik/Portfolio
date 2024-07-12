@@ -23,6 +23,7 @@ export const RESUME_DATA = {
   name: "Idan Koblik",
   initials: "IK",
   location: "Haifa, Israel",
+  locationLink: "",
   about:
     "Highschool backend developer.",
   summary:
