@@ -18,6 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export const RESUME_DATA = {
   name: "Idan Koblik",
@@ -42,6 +43,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/idan-k/",
         icon: LinkedInIcon,
+      },
+      {
+        name: "Discord",
+        url: "https://discord.com/users/429212281914785793",
+        icon: DiscordIcon,
       },
     ],
   },
