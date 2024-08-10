@@ -189,25 +189,5 @@ export const RESUME_DATA = {
         href: "https://github.com/IdanKoblik/Luckperms-notifier",
       },
     },
-    {
-      title: "Ping-Pong",
-      techStack: ["C", "Raylib"],
-      description: "Simple implementation of the classic Ping Pong game",
-      logo: YearProgressLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/IdanKoblik/ping-pong",
-      },
-    },
-    {
-      title: "Breakout",
-      techStack: ["C", "Raylib"],
-      description: "https://github.com/IdanKoblik/breakout",
-      logo: Howdy,
-      link: {
-        label: "github.com",
-        href: "https://github.com/IdanKoblik/breakout",
-      },
-    },
   ],
 } as const;
