@@ -19,6 +19,7 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { DiscordIcon } from "@/components/icons/DiscordIcon";
+import { DevToIcon } from "@/components/icons/DevToIcon";
 
 export const RESUME_DATA = {
   name: "Idan Koblik",
@@ -48,6 +49,11 @@ export const RESUME_DATA = {
         name: "Discord",
         url: "https://discord.com/users/429212281914785793",
         icon: DiscordIcon,
+      },
+      {
+        name: "Dev.to",
+        url: "https://dev.to/idankoblik",
+        icon: DevToIcon,
       },
     ],
   },
