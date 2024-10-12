@@ -130,7 +130,37 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Gitlab monitor",
+      title: "Gitlab monitor (new)",
+      techStack: [
+        "Node",
+        "Express",
+        "JS",
+        "Docker"
+      ],
+      description:
+        "Open source discord gitlab project monitor providing option to monitor you gitlab projects events",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/IdanKoblik/Gitlab-monitor",
+      },
+    },
+    {
+      title: "DiffRewind",
+      techStack: [
+        "Git",
+        "Python"
+      ],
+      description:
+        "DiffRewind is a Python tool that restores stacked diffs in a GitLab project, allowing for efficient version control management.",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/IdanKoblik/DiffRewind",
+      },
+    },
+    {
+      title: "Gitlab monitor (old)",
       techStack: [
         "Spring boot",
         "JDA",
@@ -144,7 +174,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://github.com/IdanKoblik/Gitlab-monitor",
+        href: "https://github.com/IdanKoblik/Gitlab-monitor-old",
       },
     },
     {
