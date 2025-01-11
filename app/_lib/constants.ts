@@ -1,3 +1,6 @@
+import { Heading } from "lucide-react";
+import { describe } from "node:test";
+
 export const techCardsItems = [
   {
     name: "Java",
@@ -12,22 +15,10 @@ export const techCardsItems = [
     bgColor: "bg-[#3178C6]/20",
   },
   {
-    name: "JavaScript",
-    description: "Programming language",
-    imageUrl: "/imgs/logos/js.svg",
-    bgColor: "bg-[#FFCC00]/20",
-  },
-  {
     name: "Python",
     description: "Programming language",
     imageUrl: "/imgs/logos/python.svg",
     bgColor: "bg-dark-200/10 dark:bg-white/10",
-  },
-  {
-    name: "Golang",
-    description: "Programming language",
-    imageUrl: "/imgs/logos/go.svg",
-    bgColor: "bg-[#0EA5E9]/20",
   },
   {
     name: "Git",
@@ -63,22 +54,6 @@ export const techCardsItems = [
 
 export const portfolioProjects = [
   {
-    id: "jukebox",
-    heading: "Jukebox",
-    subheading: "Minecraft nbs file player library",
-    description:
-      "Jukebox is a powerful Java library specifically designed for handling NBS (Note Block Studio) files, primarily for use in Minecraft.",
-    imageUrl: "/imgs/projects/portfolio-mockup2.png",
-    techStack: [
-      "Java",
-      "Git",
-      "Spigot api",
-      "Gradle",
-      "GitOps",
-    ],
-    sourceCodeUrl: "https://github.com/IdanKoblik/Jukebox",
-  },
-  {
     id: "cocoa-beans",
     heading: "Cocoa-beans",
     subheading: "General purpose library for Java & Spigot",
@@ -93,6 +68,37 @@ export const portfolioProjects = [
       "Git",
     ],
     sourceCodeUrl: "https://github.com/PoweredByApartium/cocoa-beans",
+  },
+  {
+    id: "R2D2",
+    heading: "R2D2",
+    subheading: "Intellij plugin for handling todos",
+    description: "R2D2 is an IntelliJ-based plugin that enhances the way you handle TODO comments in your codebase.",
+    imageUrl: "/imgs/projects/portfolio-mockup1.png",
+    techStack: [
+      "Java",
+      "Kotlin",
+      "Gradle",
+      "GitOps",
+      "Git",
+    ],
+    sourceCodeUrl: "https://github.com/IdanKoblik/R2D2",
+  },
+  {
+    id: "jukebox",
+    heading: "Jukebox",
+    subheading: "Minecraft nbs file player library",
+    description:
+      "Jukebox is a powerful Java library specifically designed for handling NBS (Note Block Studio) files, primarily for use in Minecraft.",
+    imageUrl: "/imgs/projects/portfolio-mockup2.png",
+    techStack: [
+      "Java",
+      "Git",
+      "Spigot api",
+      "Gradle",
+      "GitOps",
+    ],
+    sourceCodeUrl: "https://github.com/IdanKoblik/Jukebox",
   },
   {
     id: "diffrewind",

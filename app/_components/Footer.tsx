@@ -45,6 +45,14 @@ const Footer = () => {
               </li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <Link
+                  href="https://github.com/IdanKoblik/R2D2"
+                  target="_blank"
+                >
+                  R2D2
+                </Link>
+              </li>
+              <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
+                <Link
                   href="https://github.com/PoweredByApartium/cocoa-beans"
                   target="_blank"
                 >
@@ -80,7 +88,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link href="https://discord.com/users/429212281914785793">Discord</Link>
+                <Link href="https://discord.idank.dev">Discord</Link>
               </li>
             </ul>
           </div>
