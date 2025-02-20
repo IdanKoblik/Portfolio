@@ -9,16 +9,28 @@ export const techCardsItems = [
     bgColor: "bg-[#FF7F00]/20",
   },
   {
-    name: "TypeScript",
+    name: "Kotlin",
     description: "Programming language",
-    imageUrl: "/imgs/logos/typescript.svg",
-    bgColor: "bg-[#3178C6]/20",
+    imageUrl: "/imgs/logos/kotlin.svg",
+    bgColor: "bg-[#945DFF]/20",
   },
   {
     name: "Python",
     description: "Programming language",
     imageUrl: "/imgs/logos/python.svg",
     bgColor: "bg-dark-200/10 dark:bg-white/10",
+  },
+  {
+    name: "Golang",
+    description: "Programming language",
+    imageUrl: "/imgs/logos/go.svg",
+    bgColor: "bg-[#3178C6]/20",
+  },
+  {
+    name: "C",
+    description: "Programming language",
+    imageUrl: "/imgs/logos/c.svg",
+    bgColor: "bg-[#5C6BC0]/20",
   },
   {
     name: "Git",
