@@ -33,6 +33,12 @@ export const techCardsItems = [
     bgColor: "bg-[#3ECF8E]/20",
   },
   {
+    name: "Postgresql",
+    description: "Database",
+    imageUrl: "/imgs/logos/pgsql.svg",
+    bgColor: "bg-[#336781]/20",
+  },
+  {
     name: "Prometheus",
     description: "Database",
     imageUrl: "/imgs/logos/prometheus.svg",
