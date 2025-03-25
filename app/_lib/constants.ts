@@ -21,18 +21,6 @@ export const techCardsItems = [
     bgColor: "bg-dark-200/10 dark:bg-white/10",
   },
   {
-    name: "Golang",
-    description: "Programming language",
-    imageUrl: "/imgs/logos/go.svg",
-    bgColor: "bg-[#3178C6]/20",
-  },
-  {
-    name: "C",
-    description: "Programming language",
-    imageUrl: "/imgs/logos/c.svg",
-    bgColor: "bg-[#5C6BC0]/20",
-  },
-  {
     name: "Git",
     description: "Version control",
     imageUrl: "/imgs/logos/git.svg",
