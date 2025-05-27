@@ -15,10 +15,22 @@ export const techCardsItems = [
     bgColor: "bg-[#945DFF]/20",
   },
   {
+    name: "Golang",
+    description: "Programming language",
+    imageUrl: "/imgs/logos/go.svg",
+    bgColor: "bg-[#10aad1]/20",
+  },
+  {
     name: "Python",
     description: "Programming language",
     imageUrl: "/imgs/logos/python.svg",
     bgColor: "bg-dark-200/10 dark:bg-white/10",
+  },
+  {
+    name: "C",
+    description: "Programming language",
+    imageUrl: "/imgs/logos/c.svg",
+    bgColor: "bg-[#303f96]/20",
   },
   {
     name: "Git",
@@ -72,20 +84,19 @@ export const techCardsItems = [
 
 export const portfolioProjects = [
   {
-    id: "cocoa-beans",
-    heading: "Cocoa-beans",
-    subheading: "General purpose library for Java & Spigot",
+    id: "echo",
+    heading: "Echo",
+    subheading: "Echo is a lightweight, peer-to-peer (P2P) file transfer system designed for reliability, speed, and simplicity.",
     description:
-      "This library aims to be a very well-made and thought-out toolkit for developers to save the hassle of copying common code between projects.",
-    imageUrl: "/imgs/projects/portfolio-mockup1.png",
+      " Echo is a lightweight, peer-to-peer (P2P) file transfer system designed for reliability, speed, and simplicity. Whether you're sending files across your local network or over the internet, Echo ensures smooth and secure transfers without relying on central servers. ",
+    imageUrl: "todo",
+    sourceCodeUrl: "https://github.com/IdanKoblik/Echo",
     techStack: [
-      "Java",
-      "Gradle",
-      "Spigot api",
+      "Golang",
+      "ProtoBuff",
       "GitOps",
       "Git",
     ],
-    sourceCodeUrl: "https://github.com/PoweredByApartium/cocoa-beans",
   },
   {
     id: "R2D2",

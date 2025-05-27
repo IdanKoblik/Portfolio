@@ -1,4 +1,4 @@
-const ProjectTechnologiesMini = ({ techStack }: { techStack: string[] }) => {
+const ProjectTechnologiesMini = ({ techStack = [] }: { techStack?: string[] }) => {
   return (
     <div className="flex flex-wrap items-center gap-2.5 max-w-sm">
       {techStack.map((tech) => (
@@ -12,5 +12,6 @@ const ProjectTechnologiesMini = ({ techStack }: { techStack: string[] }) => {
     </div>
   );
 };
+
 
 export default ProjectTechnologiesMini;
