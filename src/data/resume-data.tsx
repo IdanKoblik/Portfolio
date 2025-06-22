@@ -7,234 +7,165 @@ import {
   ParabolLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { DiscordIcon } from "@/components/icons/DiscordIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Idan Koblik",
+  initials: "IL",
+  location: "Haifa, Israel",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Junior backend developer",
   summary: (
     <>
-      Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+    High school student and dedicated Backend Developer with 3 years of experience in software development, specializing in Java, Kotlin, Go and Python, Linux, and System Architecture. Proven expertise in developing and maintaining backend systems for gaming and web applications using various databases including MongoDB and PostgreSQL, GraphiteDB, PrometheusDB. Demonstrated ability to work with multiple development teams while managing complex technical projects. Strong focus on creating scalable, efficient systems and implementing DevOps CI/CD pipelines best practices. Experienced in collaborating with international development teams and delivering high-quality software solutions using Git for version control.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/78589468?v=4",
+  personalWebsiteUrl: "https://idank.dev",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "me@idank.dev",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/IdanKoblik",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/idan-k/",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Discord",
+        url: "https://discord.com/users/429212281914785793",
+        icon: DiscordIcon,
       },
     ],
   },
-  education: [
-    {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
+      company: "Gaming & Web Industry Development",
+      title: "Backend developer",
       logo: ConsultlyLogo,
-      start: "2024",
+      start: "2023",
       end: null,
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+            Collaborating with multiple development teams in the gaming industry, contributing to backend systems and architecture
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
+            Containerizing applications and services using Docker for consistent development and deployment environments
             </li>
             <li>
-              Implementing system-wide monitoring and security improvements
+            Implementing and maintaining Linux-based development environments for various gaming projects
+            </li>
+            <li>
+            Designing and optimizing backend systems using Java, Kotlin, and Python for improved performance and scalability
+            </li>
+            <li>
+            Managing and optimizing MongoDB and PostgreSQL databases for efficient data storage and retrieval
+            </li>
+            <li>
+            Participating in code reviews, testing and technical discussions with international development teams
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
+      company: "Self-Maintained Projects",
+      title: "Independent Backend  Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2023",
+      end: null,
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+            Developing and maintaining personal backend projects using Java, Kotlin, and Python
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+            Implementing DevOps CI/CD pipelines and automated deployment systems
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+            Creating custom Linux server configurations and maintenance scripts
+            </li>
+            <li>
+            Building scalable backend architectures for web applications
+            </li>
+            <li>
+            Managing version control and collaborative development using Git
+            </li>
+            <li>
+            Implementing Docker containerization for microservices and maintaining Docker registries
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Java",
+    "Spring boot",
+    "Golang",
+    "C",
+    "Python",
+    "Kotlin",
+    "MongoDB",
+    "PostgreSQL",
+    "GraphiteDB",
+    "PrometheusDB",
+    "Git",
+    "Docker",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Echo-ft",
+      techStack: ["Golang", "Protobuff"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
+        "Lightweight, peer-to-peer (P2P) file transfer system designed for reliability, speed, and simplicity.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "echo-ft",
+        href: "https://echo.idank.dev",
       },
     },
     {
-      title: "Consultly",
+      title: "Jukebox",
       techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "Java",
+        "Spigot",
+        "Paper",
       ],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Minecraft nbs file player library",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Jukebox",
+        href: "https://jukebox.idank.dev",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "R2D2",
+      techStack: ["Java", "Kotlin", "IntellijSDK"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "R2D2 is an IntelliJ-based plugin that enhances the way you handle TODO comments in your codebase.",
       logo: MonitoLogo,
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "R2D2",
+        href: "https://github.com/IdanKoblik/R2D2",
+      },
+    },
+    {
+      title: "Cocoa Beans",
+      techStack: ["Java", "Kotlin", "Paper", "Spigot"],
+      description:
+        "General purpose library for Java & Spigot.",
+      logo: MonitoLogo,
+      link: {
+        label: "R2D2",
+        href: "https://cocoa-beans.apartium.net/",
       },
     },
   ],

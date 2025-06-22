@@ -5,35 +5,21 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { cn } from "@/lib/utils";
 
 type WorkExperience = (typeof RESUME_DATA)["work"][number];
-type WorkBadges = readonly string[];
 
 interface BadgeListProps {
   className?: string;
-  badges: WorkBadges;
 }
 
 /**
  * Renders a list of badges for work experience
  * Handles both mobile and desktop layouts through className prop
  */
-function BadgeList({ className, badges }: BadgeListProps) {
-  if (badges.length === 0) return null;
-
+function BadgeList({ className }: BadgeListProps) {
   return (
     <ul
       className={cn("inline-flex list-none gap-x-1 p-0", className)}
       aria-label="Technologies used"
     >
-      {badges.map((badge) => (
-        <li key={badge}>
-          <Badge
-            variant="secondary"
-            className="align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight"
-          >
-            {badge}
-          </Badge>
-        </li>
-      ))}
     </ul>
   );
 }
@@ -49,7 +35,7 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500"
+      className="text-sm tabular-nums text-muted-foreground print:text-gray-500"
       aria-label={`Employment period: ${start} to ${end ?? "Present"}`}
     >
       {start} - {end ?? "Present"}

@@ -3,7 +3,6 @@ import { Metadata } from "next";
 import { RESUME_DATA } from "@/data/resume-data";
 import { WorkExperience } from "./components/WorkExperience";
 import { Projects } from "./components/Projects";
-import { Education } from "./components/Education";
 import { Summary } from "./components/Summary";
 import { Skills } from "./components/Skills";
 import { Header } from "./components/Header";
@@ -66,7 +65,7 @@ export default function ResumePage() {
       </div>
 
       <section
-        className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4"
+        className="mx-auto w-full max-w-2xl space-y-8 bg-background print:bg-white print:space-y-4"
         aria-label="Resume Content"
       >
         <Header />
@@ -75,8 +74,6 @@ export default function ResumePage() {
           <Summary summary={RESUME_DATA.summary} />
 
           <WorkExperience work={RESUME_DATA.work} />
-
-          <Education education={RESUME_DATA.education} />
 
           <Skills skills={RESUME_DATA.skills} />
 
