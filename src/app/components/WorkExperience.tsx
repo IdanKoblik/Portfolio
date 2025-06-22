@@ -74,7 +74,7 @@ interface WorkExperienceItemProps {
  * Handles responsive layout for badges (mobile/desktop)
  */
 function WorkExperienceItem({ work }: WorkExperienceItemProps) {
-  const { company, link, badges, title, start, end, description } = work;
+  const { company, link, title, start, end, description } = work;
 
   return (
     <Card className="py-1 print:py-0">
@@ -84,7 +84,6 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
             <CompanyLink company={company} link={link} />
             <BadgeList
               className="hidden gap-x-1 sm:inline-flex"
-              badges={badges}
             />
           </h3>
           <WorkPeriod start={start} end={end} />
@@ -102,7 +101,6 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
         <div className="mt-2">
           <BadgeList
             className="-mx-2 flex-wrap gap-1 sm:hidden"
-            badges={badges}
           />
         </div>
       </CardContent>

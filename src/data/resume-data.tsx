@@ -45,6 +45,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Gaming & Web Industry Development",
+      link: "https://apartium.net",
       title: "Backend developer",
       logo: ConsultlyLogo,
       start: "2023",
@@ -76,6 +77,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Self-Maintained Projects",
+      link: "https://idank.dev",
       title: "Independent Backend  Developer",
       logo: ParabolLogo,
       start: "2023",

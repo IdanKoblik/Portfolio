@@ -5,7 +5,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 
 interface LocationLinkProps {
   location: typeof RESUME_DATA.location;
-  locationLink: typeof RESUME_DATA.locationLink;
+  locationLink: typeof RESUME_DATA.location;
 }
 
 function LocationLink({ location, locationLink }: LocationLinkProps) {
@@ -72,13 +72,6 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
           label="Email"
         />
       )}
-      {contact.tel && (
-        <SocialButton
-          href={`tel:${contact.tel}`}
-          icon={PhoneIcon}
-          label="Phone"
-        />
-      )}
       {contact.social.map((social) => (
         <SocialButton
           key={social.name}
@@ -124,14 +117,6 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
           <span aria-hidden="true">/</span>
         </>
       )}
-      {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
-      )}
     </div>
   );
 }
@@ -155,7 +140,7 @@ export function Header() {
 
         <LocationLink
           location={RESUME_DATA.location}
-          locationLink={RESUME_DATA.locationLink}
+          locationLink={RESUME_DATA.location}
         />
 
         <ContactButtons
