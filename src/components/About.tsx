@@ -4,7 +4,6 @@ import { Server, Database, Globe, Terminal, GitBranch, Cloud } from 'lucide-reac
 const About: React.FC = () => {
   const skills = [
     { icon: <Server size={24} />, name: 'Backend Development', color: 'text-blue-600' },
-    { icon: <Database size={24} />, name: 'Database Design', color: 'text-green-600' },
     { icon: <Cloud size={24} />, name: 'DevOps & CI/CD', color: 'text-purple-600' },
     { icon: <Terminal size={24} />, name: 'Linux Systems', color: 'text-orange-600' },
     { icon: <Globe size={24} />, name: 'System Architecture', color: 'text-red-600' },
